@@ -9,20 +9,19 @@ body {
   width: 100vw;
   height: 70px;
   margin: 36px;
-  color: white;
-
+  font-family: Hahmlet, serif;
   font-size: 30pt;
-  font-family: 'Hahmlet', serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
+  font-optical-sizing: auto;
+  color: white;
   text-align: left;
 }
 
 .nav {
   display: grid;
-  margin-left: 36px;
   grid-template-columns: auto 15% auto;
+  margin-left: 36px;
 }
 
 .menu {
@@ -30,11 +29,11 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  font-family: Hahmlet, serif;
   font-size: 36pt;
-  font-family: 'Hahmlet', serif;
-  font-optical-sizing: auto;
   font-weight: 200;
+  font-optical-sizing: auto;
+  list-style-type: none;
   line-height: 200%;
 }
 
